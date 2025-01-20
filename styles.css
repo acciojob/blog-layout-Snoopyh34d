@@ -1,4 +1,3 @@
-/*  your css code here. If applicable */
 *{
   margin: 0;padding: 0;
 }
@@ -11,7 +10,7 @@ body{
 }
 
 
-.blogs-grid{
+.blog-column{
   display: grid;
   height: 200px;
   width: 200px;
@@ -20,6 +19,6 @@ body{
   align-items: center;
 }
 
-.blogs-grid>ul>li{
+.blog-column>ul>li{
   list-style: none;
 }
