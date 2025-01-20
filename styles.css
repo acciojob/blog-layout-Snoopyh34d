@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+*{
+  margin: 0;padding: 0;
+}
+
+body{
+  background-color: lightgray;
+  display: flex;
+  flex-direction: row;
+  gap: 10px 10px;
+}
+
+
+.blogs-grid{
+  display: grid;
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.blogs-grid>ul>li{
+  list-style: none;
+}
